@@ -44,7 +44,15 @@ If you add a participant from a brand-new number to a group, it will most likely
 If you compile the library yourself, don't run the CI on a brand-new number, or it will get banned for spamming too many requests(the CI has to test that all the library works).
 In short, if you use this library without a malicious intent, you will never get banned.
 
-### How to install
+### How to build
+
+```shell
+mkdir -p ~/.m2/repository/com/aspose/aspose-words/22.11/
+Download  https://releases.aspose.com/words/java/22-11/ to ~/.m2/repository/com/aspose/aspose-words/22.11/aspose-words-22.11.jar pom.xml
+./mvnw -e package install -DskipTests=true
+```
+
+### How to use
 
 #### Maven
 
